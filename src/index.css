@@ -1,11 +1,14 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Removed Tailwind directives for plain CSS compatibility */
 
 @layer base {
   body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+@layer utilities {
+  .debug-primary {
+    background-color: theme('colors.primary.600');
   }
 }
 
