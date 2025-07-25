@@ -9,8 +9,9 @@
 //     port: 5000
 //   }
 // })
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // no need for tailwindcss here!
-});
+  plugins: [react()],
+})

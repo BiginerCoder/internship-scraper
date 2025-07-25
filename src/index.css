@@ -1,31 +1,5 @@
 
 /* Removed Tailwind directives for plain CSS compatibility */
-
-@layer base {
-  body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  }
-}
-@layer utilities {
-  .debug-primary {
-    background-color: theme('colors.primary.600');
-  }
-}
-
-@layer components {
-  .btn-primary {
-    @apply bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 shadow-lg hover:shadow-xl;
-  }
-  
-  .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-lg font-medium border border-gray-300 transition-colors duration-200;
-  }
-  
-  .input-field {
-    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all duration-200;
-  }
-  
-  .card {
-    @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100;
-  }
-}
+/* Removed invalid Tailwind syntax for plain CSS compatibility */
+@import "tailwindcss/preflight";
+@tailwind utilities;
