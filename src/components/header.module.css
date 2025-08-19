@@ -1,0 +1,84 @@
+/* Header.module.css */
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e5e7eb; /* gray-200 */
+}
+
+.headerContainer {
+  max-width: 80rem; /* ~1280px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.logoButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.logoText {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827; /* gray-900 */
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  font-weight: 500;
+  color: #374151; /* gray-700 */
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navButton:hover {
+  color: #4f46e5; /* primary-600 */
+}
+
+.profileArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.welcomeText {
+  font-size: 0.875rem;
+  color: #4b5563; /* gray-600 */
+}
+
+.userIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #6b7280; /* gray-500 */
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  transition: color 0.2s;
+}
+
+.logoutButton:hover {
+  color: #374151;
+}

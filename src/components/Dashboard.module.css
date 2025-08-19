@@ -1,0 +1,213 @@
+/* InternshipListings.module.css */
+
+.dashboardContainer {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 2rem 0;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.headerTitle {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.headerSubtitle {
+  color: #6b7280;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.profileSummary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profileItem p:first-child {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.profileItem p:last-child {
+  font-weight: 500;
+  color: #111827;
+}
+
+.tabs {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.tabButton {
+  padding: 0.5rem 0.25rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  border-bottom: 2px solid transparent;
+  color: #6b7280;
+  background: none;
+  cursor: pointer;
+}
+
+.tabButton:hover {
+  color: #374151;
+  border-color: #d1d5db;
+}
+
+.tabButtonActive {
+  color: #4f46e5;
+  border-color: #6366f1;
+}
+
+.tabCount {
+  background-color: #f3f4f6;
+  color: #111827;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+}
+
+.internshipCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.internshipTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.recommendedBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: #eef2ff;
+  color: #3730a3;
+  border-radius: 9999px;
+  margin-left: 0.5rem;
+}
+
+.companyInfo,
+.locationInfo {
+  display: flex;
+  align-items: center;
+  color: #4b5563;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.heartButton {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  transition: background-color 0.2s;
+}
+
+.heartButtonActive {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.heartButtonInactive {
+  background-color: #f3f4f6;
+  color: #9ca3af;
+}
+
+.heartButtonInactive:hover {
+  background-color: #e5e7eb;
+}
+
+.skillBadge {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 9999px;
+}
+
+.skillMatch {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.skillMismatch {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.cgpaText {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.applyButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.applyButton:hover {
+  background-color: #4338ca;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.emptyStateIcon {
+  width: 3rem;
+  height: 3rem;
+  color: #9ca3af;
+  margin: 0 auto 1rem;
+}
+
+.emptyStateTitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.emptyStateText {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
